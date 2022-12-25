@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass',sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container, .thanks-container{
+    background-color: hsl(213, 19%, 18%);
+    max-width: 450px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.main-container img{
+    background-color: hsl(218, 6%, 25%);
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.main-container h1{
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.main-container p{
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 2rem;
+}
+
+.main-container ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.main-container ul li{
+
+    border-radius: 50%;
+}
+
+.main-container .numbers{
+    color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: hsl(218, 6%, 25%);
+    font-family: 'overpass';
+    transition: 0.2s;
+}
+
+.main-container .numbers:hover{
+    background-color: hsl(216, 12%, 54%);
+}
+
+.main-container .numbers:focus{
+    background-color: hsl(25, 97%, 53%);
+    transition: 0.4s;
+}
+
+.main-container .submit{
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    font-family: 'overpass';
+    letter-spacing: 0.15rem;
+    margin-bottom: 1rem;
+}
+
+.main-container .submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+
+.thanks-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thanks-container img{
+    width: 150px;
+    margin-bottom: 20px;
+
+}
+
+.thanks-container p{
+    background-color: hsl(218, 6%, 25%);
+    color:hsl(25, 97%, 53%);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#rating{
+    color:hsl(25, 97%, 53%);
+}
+
+.thanks-container h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.thanks-container span{
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 20px;
+}
+
+.hidden{
+    display: none;
+}
